@@ -87,10 +87,10 @@ def try_sortables(order_names: List[str]) -> Optional[List[str]]:
         return None
 
 def main():
-    st.set_page_config(page_title="PDF Merger", page_icon="📄", layout="centered")
+    st.set_page_config(page_title="PDF Binder", page_icon="📄", layout="centered")
 
-    st.title("📄 PDF Merger Tool")
-    st.write("Upload PDF files, reorder them, optionally select page ranges, and merge into one PDF.")
+    st.title("📄 PDF Binder Tool")
+    st.write("Upload PDF files, reorder them, optionally select page ranges, and merge into one PDF. Don't worry about sending your data to external servers or weird websites.")
 
     with st.sidebar:
         st.header("Options")
@@ -107,6 +107,14 @@ def main():
 
         st.caption(
             "Tip: In *Select page ranges* mode, use formats like `1-3,5,8-10`."
+        )
+
+        st.divider()
+        st.markdown("### About")
+        st.info(
+            "**Created by:** J. Pacocha\n\n"
+            "**Purpose:** A privacy-focused tool to merge PDFs locally without external uploads.\n\n"
+            "• [🌐 Website](https://jakubpacocha.com)\n\n • [🐙 GitHub](https://github.com/JPacoch)\n\n • [💼 LinkedIn](https://linkedin.com/in/jakubpacocha)"
         )
 
     uploaded_files = st.file_uploader(
