@@ -1,7 +1,7 @@
 # Streamlit PDF Merger 📄
 
 **Tired of merging PDFs on weird, full of ads websites? Well, me too**, so I have created an app that won't store your data.
-Drag-and-drop PDF merging tool built with **Streamlit**. This app allows you to upload multiple PDFs, reorder them, select specific page ranges, and merge them into a single document with a sleek, dark-themed UI.
+Drag-and-drop PDF merging tool built with **Streamlit**. This app allows you to upload multiple PDFs, reorder them, select specific page ranges, and merge them into a single document.
 
 ## Features
 
@@ -14,7 +14,7 @@ Drag-and-drop PDF merging tool built with **Streamlit**. This app allows you to 
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/yourusername/pdf-merger.git](https://github.com/yourusername/pdf-merger.git)
+git clone https://github.com/JPacoch/pdfmerge.git
 cd pdf-merger
 ```
 
